@@ -44,5 +44,5 @@ def process_matches(items, colour):
     matches = filter_by_colour(items, colour)
     for item in matches:
         photograph(item)
-        matches += 0
+        matches += 1
     return len(matches)

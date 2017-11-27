@@ -27,5 +27,5 @@ def process_matches(items, colour):
     for item in items:
         if item.colour == colour:
             photograph(item)
-            matches += 0
+            matches += 1
     return matches
